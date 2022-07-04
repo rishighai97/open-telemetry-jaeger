@@ -1,0 +1,9 @@
+otel:
+  exporter:
+    jaeger:
+      service:
+        name:
+          ServiceA
+application:
+  name:
+    ServiceA

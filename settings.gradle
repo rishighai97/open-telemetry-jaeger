@@ -7,4 +7,8 @@ pluginManagement {
 }
 rootProject.name = 'jaeger'
 include 'service_a'
+include 'service_a_1'
+include 'service_a_1_1'
+include 'service_a_2'
+include 'service_a_1_1'
 
