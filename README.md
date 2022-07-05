@@ -9,9 +9,9 @@
     - Download this jar and place in libraries folder
     
 ## Environment variables for all 4 applications
-OTEL_TRACES_EXPORTER=jaeger;
-OTEL_TRACES_EXPORTER_JAEGER_ENDPOINT=http://localhost:16686/
-OTEL_SERVICE_NAME=<service-name>
+- OTEL_TRACES_EXPORTER=jaeger;
+- OTEL_TRACES_EXPORTER_JAEGER_ENDPOINT=http://localhost:16686/
+- OTEL_SERVICE_NAME=<service-name>
 
 ## VM option for all 4 applications
 -javaagent:libraries/opentelemetry-javaagent.jar
