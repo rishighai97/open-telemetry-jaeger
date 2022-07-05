@@ -26,6 +26,7 @@ OTEL_SERVICE_NAME=<service-name>
 ![img_2.png](img_2.png)
 
 ## References
+- [Architecture](https://www.jaegertracing.io/docs/1.21/architecture/)
 - [Java Instrumentation docs](https://opentelemetry.io/docs/instrumentation/java/)
 - [Autoconfigure Jaeger exporter](https://github.com/open-telemetry/opentelemetry-java/blob/main/sdk-extensions/autoconfigure/README.md#jaeger-exporter)
 - [Blog - Spring Implementation](https://reflectoring.io/spring-boot-tracing/)
