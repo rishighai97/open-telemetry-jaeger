@@ -11,13 +11,19 @@
 ## Environment variables for all 4 applications
 OTEL_TRACES_EXPORTER=jaeger;
 OTEL_TRACES_EXPORTER_JAEGER_ENDPOINT=http://localhost:16686/
+OTEL_SERVICE_NAME=<service-name>
 
 ## VM option for all 4 applications
 -javaagent:libraries/opentelemetry-javaagent.jar
 
 ## Jaeger Output
 - Hit localhost:8000/a
-![img.png](img.png)
+
+### Success
+![img_3.png](img_3.png)
+
+### Failure
+![img_2.png](img_2.png)
 
 ## References
 - [Java Instrumentation docs](https://opentelemetry.io/docs/instrumentation/java/)
